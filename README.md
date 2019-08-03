@@ -39,6 +39,8 @@ doctrine:
     dbal:
         types:
             uuid:  Ramsey\Uuid\Doctrine\UuidType
+        mapping_types:
+            uuid: string
 ```
 In Zend Framework:
 ```php
